@@ -5,13 +5,15 @@ const getpath = (matrix) => {
     let count = 0;
     const result = new Array(m).fill(0).map(() => new Array(n).fill(0));
 
-    //init columns. Path can only go through 0 cells value
+    //init columns. Path can only go through 1 cells value
     for (let i = 0; i < m; i++) {
-        result[i][0] = 1;
+        result[i][0] = (matrix[i][0] == 0) ? 0 : 1;
     }
 
     for (let i = 0; i < n; i++) {
         result[0][i] = 1;
+        result[0][i] = (matrix[0][i] == 0) ? 0 : 1;
+
     }
 
     for (let i = 1; i < m; i++) {
