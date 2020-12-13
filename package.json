@@ -1,0 +1,19 @@
+{
+  "name": "jtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "path.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvega/jtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marvega/jtest/issues"
+  },
+  "homepage": "https://github.com/marvega/jtest#readme"
+}
